@@ -1,0 +1,639 @@
+
+<!DOCTYPE html> <html lang="en-US"><head>
+	    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://demo.ivyleaguesystems.com/xmlrpc.php">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="/DataTables-1.10.13/media/css/jquery.dataTables.css">
+<!--link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"-->
+<!--link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"-->
+<link rel="stylesheet" href="/css/w3.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/Datetimepicker/css/jquery-ui-timepicker-addon.css"  type="text/css">
+<link rel="stylesheet" href="/chosen_v1.6.2/chosen.css"  type="text/css"'>
+    
+<title>Submit Abstract &#8211; Sample conference site</title>
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Sample conference site &raquo; Feed" href="https://demo.ivyleaguesystems.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sample conference site &raquo; Comments Feed" href="https://demo.ivyleaguesystems.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/demo.ivyleaguesystems.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='https://demo.ivyleaguesystems.com/wp-includes/css/dashicons.min.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='bbp-default-css'  href='https://demo.ivyleaguesystems.com/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.12-6148' type='text/css' media='screen' />
+<link rel='stylesheet' id='education-hub-style-css'  href='https://demo.ivyleaguesystems.com/wp-content/themes/education-hub/style.css?ver=1.9.5' type='text/css' media='all' />
+<style id='education-hub-style-inline-css' type='text/css'>
+#masthead{ background-image: url("https://demo.ivyleaguesystems.com/wp-content/uploads/sites/14/14/templates/banner"); background-repeat: no-repeat; background-position: center center; }
+</style>
+<link rel='stylesheet' id='edu-child-style-css'  href='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/css/sabre_style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://demo.ivyleaguesystems.com/wp-content/themes/education-hub/third-party/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='education-hub-google-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A600%2C400%2C400italic%2C300%2C100%2C700%7CMerriweather+Sans%3A400%2C700&#038;ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='bos_sb_main_css-css'  href='https://demo.ivyleaguesystems.com/wp-content/plugins/bookingcom-official-searchbox/css/bos_searchbox.css?ver=1.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://code.jquery.com/ui/1.12.0/jquery-ui.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/DataTables-1.10.13/media/js/jquery.dataTables.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/DataTables-1.10.13/extensions/Buttons/js/buttons.colVis.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/DataTables-1.10.13/extensions/Buttons/js/dataTables.buttons.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/Buttons-1.2.4/js/buttons.print.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/Buttons-1.2.4/js/buttons.flash.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/Buttons-1.2.4/js/buttons.html5.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/Stuk-jszip-887dcd8/dist/jszip.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/pdfmake-master/build/pdfmake.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/pdfmake-master/build/vfs_fonts.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/Datetimepicker/js/jquery-ui-timepicker-addon.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/Datetimepicker/js/jquery-ui-slider-access-addon.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/chosen_v1.6.2/chosen.jquery.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/ckeditor/ckeditor.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/zxcvbn-master/dist/zxcvbn.js?ver=4.7.5'></script>
+<link rel='https://api.w.org/' href='https://demo.ivyleaguesystems.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://demo.ivyleaguesystems.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demo.ivyleaguesystems.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="https://demo.ivyleaguesystems.com/submit-abstract/" />
+<link rel='shortlink' href='https://demo.ivyleaguesystems.com/?p=3919' />
+<link rel="alternate" type="application/json+oembed" href="https://demo.ivyleaguesystems.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.ivyleaguesystems.com%2Fsubmit-abstract%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://demo.ivyleaguesystems.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.ivyleaguesystems.com%2Fsubmit-abstract%2F&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="https://demo.ivyleaguesystems.com/wp-content/uploads/sites/14/2017/01/cropped-LOGO_IvyLeague_confman_small_transp_1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://demo.ivyleaguesystems.com/wp-content/uploads/sites/14/2017/01/cropped-LOGO_IvyLeague_confman_small_transp_1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://demo.ivyleaguesystems.com/wp-content/uploads/sites/14/2017/01/cropped-LOGO_IvyLeague_confman_small_transp_1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://demo.ivyleaguesystems.com/wp-content/uploads/sites/14/2017/01/cropped-LOGO_IvyLeague_confman_small_transp_1-270x270.png" />
+</head>
+
+<body class="page-template page-template-submit_abstract page-template-submit_abstract-php page page-id-3919 logged-in wp-custom-logo site-layout-fluid global-layout-no-sidebar">
+
+	    <div id="page" class="container hfeed site">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    	<div id="tophead">
+		<div class="container">
+			<div id="quick-contact">
+									<ul>
+																			<li class="quick-email"><a href="mailto:pcchairdemo@gmail.com">pcchairdemo@gmail.com</a></li>
+											</ul>
+													<div class="top-news">
+						<p>
+																															<a href="#">Welcome, John Watson							</a>
+												</p>
+					</div>
+							</div>
+
+							<div class="quick-links">
+					<a href="#" class="links-btn">Quick Links</a>
+					<ul id="menu-quick-links" class="menu"><li class="menu-item"><a href="http://demo.ivyleaguesystems.com" target="_blank">Home</a></li><li class="menu-item"><a href="https://demo.ivyleaguesystems.com/edit-user-profile">Edit user profile</a></li><li class="menu-item"><a href="https://demo.ivyleaguesystems.com/change-password">Change password</a></li><li class="menu-item"><a href="https://demo.ivyleaguesystems.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fdemo.ivyleaguesystems.com&amp;_wpnonce=1ccdd54b7f">Logout</a></li></ul>				</div>
+			
+			
+		</div> <!-- .container -->
+	</div><!--  #tophead -->
+
+	<header id="masthead" class="site-header" role="banner"><div class="container">			    <div class="site-branding">
+
+		    <a href="https://demo.ivyleaguesystems.com/" class="site-logo-link" title='Sample conference site' rel='home'>
+					<img src="https://demo.ivyleaguesystems.com/wp-content/uploads/sites/14/14/templates/logo.png" alt="Sample conference site" />
+				</a>
+
+			
+										        <div id="site-identity">
+					            	              <p class="site-title"><a href="https://demo.ivyleaguesystems.com/" rel="home">Sample conference site</a></p>
+	            				
+					            <p class="site-description" id="site-description" style="color:#FFA500; font-size:20px;">One stop conference management</p>
+					        </div><!-- #site-identity -->
+			
+	    </div><!-- .site-branding -->
+
+	    	    
+        </div><!-- .container --></header><!-- #masthead -->    <div id="main-nav" class="clear-fix">
+        <div class="container">
+        <nav id="site-navigation" class="main-navigation" role="navigation">
+          <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i>
+			Menu</button>
+            <div class="wrap-menu-content">
+				<div class="menu-main-container"><ul id="primary-menu" class="menu"><li class="right"><a href="http://demo.ivyleaguesystems.com" target="_blank">Home</a></li><li id="menu-item-5359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5359"><a>Setup</a>
+<ul class="sub-menu">
+	<li id="menu-item-5104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5104"><a href="https://demo.ivyleaguesystems.com/manage-themes/">Manage Themes</a></li>
+	<li id="menu-item-5103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5103"><a href="https://demo.ivyleaguesystems.com/create-event/">Manage Event</a></li>
+	<li id="menu-item-5038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5038"><a href="https://demo.ivyleaguesystems.com/upload-templates/">Upload templates</a></li>
+	<li id="menu-item-5112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5112"><a href="https://demo.ivyleaguesystems.com/manage-delegate-categories/">Manage delegate categories</a></li>
+	<li id="menu-item-5032" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5032"><a href="https://demo.ivyleaguesystems.com/manage-registration-types/">Manage registration types</a></li>
+	<li id="menu-item-5058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5058"><a href="https://demo.ivyleaguesystems.com/manage-sponsorship-types/">Manage sponsorship types</a></li>
+</ul>
+</li>
+<li id="menu-item-5134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5134"><a>Users</a>
+<ul class="sub-menu">
+	<li id="menu-item-5034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5034"><a href="https://demo.ivyleaguesystems.com/add-users/">Add Users</a></li>
+	<li id="menu-item-5063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5063"><a href="https://demo.ivyleaguesystems.com/pcchair-add-users-manually/">Add users manually</a></li>
+	<li id="menu-item-5125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5125"><a href="https://demo.ivyleaguesystems.com/add-roles-to-users/">Add roles to users</a></li>
+	<li id="menu-item-5133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5133"><a href="https://demo.ivyleaguesystems.com/edit-conf-users/">Edit conference users</a></li>
+	<li id="menu-item-5051" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5051"><a href="https://demo.ivyleaguesystems.com/send-bulk-email/">Send bulk email</a></li>
+	<li id="menu-item-5181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5181"><a href="https://demo.ivyleaguesystems.com/manage-email-templates/">Manage email templates</a></li>
+	<li id="menu-item-5326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5326"><a href="https://demo.ivyleaguesystems.com/email-mailing-list/">Email mailing list</a></li>
+</ul>
+</li>
+<li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7"><a>Submissions</a>
+<ul class="sub-menu">
+	<li id="menu-item-5187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5187"><a href="https://demo.ivyleaguesystems.com/manage-submissions/">Manage submissions</a></li>
+	<li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11"><a>Reviews</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5042" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5042"><a href="https://demo.ivyleaguesystems.com/assign-multiple-abstracts/">Assign abstracts for review</a></li>
+		<li id="menu-item-5046" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5046"><a href="https://demo.ivyleaguesystems.com/assign-multiple-papers/">Assign papers for review</a></li>
+		<li id="menu-item-5190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5190"><a href="https://demo.ivyleaguesystems.com/send-reminder-reviewers/">Send reminder reviewers</a></li>
+	</ul>
+</li>
+	<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14"><a>Decisions</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5043"><a href="https://demo.ivyleaguesystems.com/acceptreject-multiple-abstracts/">Accept/Reject abstracts</a></li>
+		<li id="menu-item-5044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5044"><a href="https://demo.ivyleaguesystems.com/acceptreject-multiple-papers/">Accept/Reject papers</a></li>
+		<li id="menu-item-5045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5045"><a href="https://demo.ivyleaguesystems.com/acceptreject-multiple-revised-papers/">Accept/reject revised papers</a></li>
+		<li id="menu-item-5333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5333"><a href="https://demo.ivyleaguesystems.com/acceptreject-multiple-final-papers/">Accept/reject final papers</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5087" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5087"><a>Schedule</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5059"><a href="https://demo.ivyleaguesystems.com/finalize-list-of-presentations/">Finalize list of presentations</a></li>
+		<li id="menu-item-5086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5086"><a href="https://demo.ivyleaguesystems.com/create-conference-schedule/">Create conference schedule</a></li>
+		<li id="menu-item-5085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5085"><a href="https://demo.ivyleaguesystems.com/edit-conference-schedule/">Edit conference schedule</a></li>
+		<li id="menu-item-5084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5084"><a href="https://demo.ivyleaguesystems.com/assign-presentations-to-sessions/">Assign presentations to sessions</a></li>
+		<li id="menu-item-5295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5295"><a href="https://demo.ivyleaguesystems.com/edit-presentation-timings/">Edit presentation timings</a></li>
+		<li id="menu-item-5088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5088"><a href="https://demo.ivyleaguesystems.com/view-conference-schedule/">View conference schedule</a></li>
+	</ul>
+</li>
+	<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13"><a>Proceedings</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5039"><a href="https://demo.ivyleaguesystems.com/create-proceedings/">Create proceedings</a></li>
+		<li id="menu-item-5040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5040"><a href="https://demo.ivyleaguesystems.com/create-book-of-abstracts/">Create book of abstracts</a></li>
+		<li id="menu-item-5352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5352"><a href="https://demo.ivyleaguesystems.com/download-accepted-paper-files/">Download accepted paper files</a></li>
+		<li id="menu-item-5297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5297"><a href="https://demo.ivyleaguesystems.com/download-paper-files/">Download final paper files</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9"><a>Registrations</a>
+<ul class="sub-menu">
+	<li id="menu-item-5310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5310"><a href="https://demo.ivyleaguesystems.com/organiser-register-delegate/">Register delegate</a></li>
+	<li id="menu-item-5137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5137"><a href="https://demo.ivyleaguesystems.com/bulk-registration/">Bulk registration</a></li>
+	<li id="menu-item-5035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5035"><a href="https://demo.ivyleaguesystems.com/manage-payment-details/">Manage payment details</a></li>
+	<li id="menu-item-5036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5036"><a href="https://demo.ivyleaguesystems.com/verify-registrations/">Verify registrations</a></li>
+	<li id="menu-item-5258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5258"><a href="https://demo.ivyleaguesystems.com/download-invoices/">Manage Invoices</a></li>
+	<li id="menu-item-5037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5037"><a href="https://demo.ivyleaguesystems.com/list-verified-registrations/">Download passes</a></li>
+	<li id="menu-item-5050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5050"><a href="https://demo.ivyleaguesystems.com/filter-participant-list/">Filter participant list</a></li>
+	<li id="menu-item-5314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5314"><a href="https://demo.ivyleaguesystems.com/list-paper-registration-links/">List paper-registration links</a></li>
+</ul>
+</li>
+<li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17"><a>Reports</a>
+<ul class="sub-menu">
+	<li id="menu-item-5047" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5047"><a href="https://demo.ivyleaguesystems.com/list-of-users/">List of users</a></li>
+	<li id="menu-item-5207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5207"><a href="https://demo.ivyleaguesystems.com/list-all-submissions/">List all submissions</a></li>
+	<li id="menu-item-5206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5206"><a href="https://demo.ivyleaguesystems.com/list-all-reviews/">List all reviews</a></li>
+	<li id="menu-item-5028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5028"><a href="https://demo.ivyleaguesystems.com/list-accepted-abstracts/">List accepted abstracts</a></li>
+	<li id="menu-item-5030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5030"><a href="https://demo.ivyleaguesystems.com/list-accepted-papers/">List accepted papers</a></li>
+	<li id="menu-item-5332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5332"><a href="https://demo.ivyleaguesystems.com/list-final-papers/">List final papers</a></li>
+	<li id="menu-item-5205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5205"><a href="https://demo.ivyleaguesystems.com/list-all-authors/">List all authors</a></li>
+	<li id="menu-item-5049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5049"><a href="https://demo.ivyleaguesystems.com/list-reviewers/">List reviewers</a></li>
+	<li id="menu-item-5055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5055"><a href="https://demo.ivyleaguesystems.com/list-of-sponsors/">List of sponsors</a></li>
+	<li id="menu-item-5208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5208"><a href="https://demo.ivyleaguesystems.com/list-all-user-registrations/">List all registrations</a></li>
+	<li id="menu-item-5138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5138"><a href="https://demo.ivyleaguesystems.com/list-verified-registrations/">List of participants</a></li>
+</ul>
+</li>
+<li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a>Reviewer</a>
+<ul class="sub-menu">
+	<li id="menu-item-5027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5027"><a href="https://demo.ivyleaguesystems.com/list-assigned-abstracts/">Display assigned abstracts</a></li>
+	<li id="menu-item-5029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5029"><a href="https://demo.ivyleaguesystems.com/list-assigned-papers/">Display assigned papers</a></li>
+</ul>
+</li>
+<li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-5"><a>Author</a>
+<ul class="sub-menu">
+	<li id="menu-item-5020" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3919 current_page_item menu-item-5020"><a href="https://demo.ivyleaguesystems.com/submit-abstract/">Submit abstract</a></li>
+	<li id="menu-item-5107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5107"><a href="https://demo.ivyleaguesystems.com/submit-direct-paper/">Submit paper</a></li>
+	<li id="menu-item-5026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5026"><a href="https://demo.ivyleaguesystems.com/my-abstracts/">My abstracts</a></li>
+	<li id="menu-item-5340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5340"><a href="https://demo.ivyleaguesystems.com/submit-copyright-agreement/">Submit copyright agreement</a></li>
+	<li id="menu-item-5251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5251"><a href="https://demo.ivyleaguesystems.com/ieee-e-copyright/">IEEE E copyright</a></li>
+</ul>
+</li>
+<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10"><a>Participant</a>
+<ul class="sub-menu">
+	<li id="menu-item-5022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5022"><a href="https://demo.ivyleaguesystems.com/edit-user-profile/">Edit profile</a></li>
+	<li id="menu-item-5019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5019"><a href="https://demo.ivyleaguesystems.com/change-password/">Change password</a></li>
+	<li id="menu-item-5031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5031"><a href="https://demo.ivyleaguesystems.com/conference-registration/">Conference registration</a></li>
+	<li id="menu-item-5033" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5033"><a href="https://demo.ivyleaguesystems.com/my-registrations/">My Registrations</a></li>
+	<li id="menu-item-5062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5062"><a href="https://demo.ivyleaguesystems.com/view-conference-schedule/">View conference schedule</a></li>
+</ul>
+</li>
+<li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18"><a>Sponsor</a>
+<ul class="sub-menu">
+	<li id="menu-item-5054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5054"><a href="https://demo.ivyleaguesystems.com/view-sponsorship-types/">View sponsorship types</a></li>
+	<li id="menu-item-5057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5057"><a href="https://demo.ivyleaguesystems.com/add-sponsorship/">Add sponsorship</a></li>
+	<li id="menu-item-5056" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5056"><a href="https://demo.ivyleaguesystems.com/edit-sponsorship/">Edit sponsorship</a></li>
+	<li id="menu-item-5064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5064"><a href="https://demo.ivyleaguesystems.com/add-sponsored-candidates/">Add sponsored candidates</a></li>
+</ul>
+</li>
+<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19"><a>Speaker</a>
+<ul class="sub-menu">
+	<li id="menu-item-5061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5061"><a href="https://demo.ivyleaguesystems.com/submit-brief-abstract/">Submit brief abstract</a></li>
+	<li id="menu-item-5060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5060"><a href="https://demo.ivyleaguesystems.com/upload-presentation/">Upload presentation</a></li>
+</ul>
+</li>
+<li class="right"><a href="https://demo.ivyleaguesystems.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fdemo.ivyleaguesystems.com&amp;_wpnonce=1ccdd54b7f">Logout</a></li></ul></div>            </div><!-- .menu-content -->
+        </nav><!-- #site-navigation -->
+       </div> <!-- .container -->
+    </div> <!-- #main-nav -->
+    
+	<div id="content" class="site-content"><div class="container"><div class="inner-wrapper">    <script type="text/javascript">
+
+function showDescription(selObj){
+	var desc = document.getElementById('theme_desc');
+	var selected = selObj.options[selObj.selectedIndex];
+	desc.innerHTML = selected.getAttribute('data-desc');
+}
+
+function validateEmail(elem){
+		var retVal = true;
+		var email = elem.value;
+		if(email){
+			// validate email format xxx@yy.dmdm
+			var regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+			if (regex.test(email)) {
+				elem.style.borderColor = "";
+				elem.style.backgroundColor = "";
+
+			}
+			else {
+				// Invalid email
+				elem.style.borderColor = "red";
+				elem.style.backgroundColor = "#ff8080";
+
+				//alert("Invalid email");
+				retVal = false;
+			}
+		}
+		else{
+
+			elem.style.borderColor = "";
+			elem.style.backgroundColor = "";
+
+		}
+		return retVal;
+}
+
+function validateForm() {
+	var ret = true;
+	var email_fields = document.getElementsByName("author_emails");
+	if(email_fields!=null){
+		for(var i=0; i<email_fields.length; i++){
+			var email = email_fields[i].value;
+			if (!validateEmail(email)) {
+				email_fields[i].style.borderColor = "red";
+				ret = false;
+			}
+			else{
+				email_fields[i].style.borderColor = "";
+			}
+		}
+	}
+    if(ret === false){
+    	alert("Please correct the errors on the form.");
+    }
+	return ret;
+}
+
+function addRow(tableID) {
+
+	var table = document.getElementById(tableID);
+
+	var rowCount = table.rows.length;
+	var row = table.insertRow(rowCount);
+	row.id = "D"+rowCount+"R";
+	row.className="MoveableRow";
+	var colCount = table.rows[0].cells.length;
+
+	for(var i=0; i<colCount; i++) {
+
+		var newcell	= row.insertCell(i);
+
+		newcell.innerHTML = table.rows[1].cells[i].innerHTML;
+
+		switch(newcell.childNodes[0].type) {
+			case "text":
+					newcell.childNodes[0].value = "";
+					newcell.childNodes[0].readOnly = false;
+					break;
+			case "checkbox":
+					newcell.childNodes[0].checked = false;
+					break;
+			case "number":
+					newcell.childNodes[0].value = rowCount;
+					break;
+			case "email":
+					newcell.childNodes[0].value = "";
+					newcell.childNodes[0].readOnly = false;
+					break;
+			case "select-one":
+					newcell.childNodes[0].selectedIndex = 0;
+					break;
+			case "button":
+				var id = newcell.childNodes[0].getAttribute('id');
+				var sub_id = id.substring(0, 1);
+				var new_id = sub_id+rowCount;
+
+				newcell.childNodes[0].setAttribute('id',new_id);
+				if (sub_id == "U") {
+					newcell.childNodes[0].className = "move_up";
+
+				}
+				else if (sub_id == "D") {
+					newcell.childNodes[0].className = "move_down";
+
+				}
+				break;
+		}
+	}
+
+}
+
+function deleteRow(tableID) {
+	try {
+		var table = document.getElementById(tableID);
+		var rowCount = table.rows.length;
+
+
+		for(var i=1; i<rowCount; i++) {
+			var row = table.rows[i];
+			var chkbox = row.cells[0].childNodes[0];
+
+			if(null != chkbox && true == chkbox.checked) {
+				if (row.id == "D1R") {
+					alert("Cannot delete current user author.");
+					break;
+				}
+				if(rowCount <= 2) {
+					alert("Cannot delete all the rows.");
+					break;
+				}
+
+				table.deleteRow(i);
+				rowCount--;
+				i--;
+
+				}
+
+			}
+
+		var colCount = table.rows[0].cells.length;
+
+	}catch(e) {
+		alert(e);
+	}
+}
+
+
+
+jQuery(document).ready(function(){
+    jQuery('#dataTable').on('click','input.move_up', function() {
+       var currentRow = jQuery(this).closest('tr');
+        if (jQuery(this).is(".move_up")) {
+            currentRow.insertBefore(currentRow.prev());
+        }
+    });
+
+
+    jQuery('#dataTable').on('click','input.move_down', function() {
+        var currentRow = jQuery(this).closest('tr');
+        if (jQuery(this).is(".move_down")) {
+            currentRow.insertAfter(currentRow.next());
+        }
+    });
+
+	       jQuery("#checkAll").change(function(){
+	              jQuery(".checkbox1").prop('checked', jQuery(this).prop("checked"));
+	       });
+
+  jQuery("#editor1").on('keyup', function() {
+    var words = this.value.match(/\S+/g).length;
+
+    if (words > 250) {
+      // Split the string on first 250 words and rejoin on spaces
+      var trimmed = jQuery(this).val().split(/\s+/, 250).join(" ");
+      // Add a space at the end to make sure more typing creates new words
+      jQuery(this).val(trimmed + " ");
+    }
+    else {
+      jQuery('#display_count').text(words);
+      jQuery('#word_left').text(250-words);
+    }
+  });
+
+  jQuery("#keywords").on('keyup', function() {
+    if (this.value.match(/,+/g) != null)
+    {
+	var kwords = this.value.match(/,+/g).length;
+	}
+	else
+	{
+		var kwords = 0;
+	}
+
+    if (kwords > 9) {
+      // Split the string on first 10 commas and rejoin on commas
+      var trimmed = jQuery(this).val().split(/,+/, 10).join(",");
+      // Add a comma at the end to make sure more typing creates new keywords
+      jQuery(this).val(trimmed + ",");
+      jQuery('#display_kcount').text(kwords);
+      jQuery('#kword_left').text(10-kwords);
+    }
+    else {
+      jQuery('#display_kcount').text(kwords);
+      jQuery('#kword_left').text(10-kwords);
+    }
+
+  });
+});
+
+
+</script>
+
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			
+				
+<article id="post-3919" class="post-3919 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Submit Abstract</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+    					</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="edit-link"></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<div class="message">
+
+
+
+</div>
+<div id="body">
+ <div id="content">
+    <form method="post" name="submit_abstract" id="sub_abstract" enctype="multipart/form-data" onsubmit="return validateForm()">
+<div class="container">
+<p>NOTE: Please check your abstract before submitting. Abstracts once submitted cannot be edited, deleted or resubmitted.</p>
+<table width="100%">
+<col style="width:20">
+<col style="width:80%">
+
+<tr><td><label><strong>Title*: </strong></label>
+</td><td><input type="text" name="title" style="width:100%" required>
+</td></tr>
+<tr><td><label><strong>Keywords (max 10, comma separated)*: </strong></label>
+</td><td><input type="text" name="keywords" id="keywords" style="width:100%" required>
+<br>Total keyword count : <span id="display_kcount">0</span> keywords. Keywords left : <span id="kword_left">0</span> keywords.
+</td></tr>
+<tr><td colspan=2><label><strong>Abstract (max 250 words)*:</strong></label><br>
+<input type="radio" name="group1" value="1" checked="checked" readonly hidden/><label><strong>Paste abstract content: </strong></label><br>
+</td></tr>
+<tr><td colspan=2>
+<textarea rows="10" cols="50" name="editor1" id="editor1" value="" required></textarea>
+Total word count : <span id="display_count">0</span> words. Words left : <span id="word_left">0</span> words.
+</td></tr>
+<tr><td>
+<label><strong>Theme*:</strong></label>
+</td><td>
+  		<select name="theme" onchange="showDescription(this);">
+
+  		  			<option value="Power Quality (PQ)" data-desc="">
+    		Power Quality (PQ)    		</option>
+
+		  			<option value="Power System Reliability" data-desc="">
+    		Power System Reliability    		</option>
+
+		  			<option value="Renewable Energy" data-desc="">
+    		Renewable Energy    		</option>
+
+		  			<option value="High Voltage Systems" data-desc="">
+    		High Voltage Systems    		</option>
+
+		  			<option value="Electrical Machines and Transformers" data-desc="Electrical Machines and Transformers">
+    		Electrical Machines and Transformers    		</option>
+
+				</select>
+</td></tr>
+
+<tr>
+<td>
+</td>
+<td>
+<label>Theme Description:</label>
+
+		<div id="theme_desc"></div>
+
+</td></tr>
+
+<tr><td colspan = 2>
+<label><strong>List of authors (in order)*:</strong></label><br><br>
+<center></center><a id="addRow" class="w3-btn-floating w3-lime" title="Add Row" href="#" onclick="addRow('dataTable');return false;">+</a>
+<a id="deleteRow" class="w3-btn-floating w3-lime" title="Delete Row" href="#" onclick="deleteRow('dataTable');return false;">-</a></center>
+<TABLE id="dataTable" width="100%" border="1" cellpadding="0" cellspacing="0" style="border-bottom:1px solid; font-size:1em;">
+<col style="width:4%";>
+<col style="width:20%";>
+<col style="width:32%";>
+<col style="width:32%";>
+<col style="width:12%";>
+<thead>
+<tr><th style="border-bottom:1px solid black;"><input type="checkbox" id="checkAll" /></th><th style="border-bottom:1px solid black;">Author name (Last, First)</th><th style="border-bottom:1px solid black;">Email</th><th style="border-bottom:1px solid black;">Current Affiliation</th><th style="border-bottom:1px solid black;">Move Up / Down</th></tr>
+</thead>
+<tbody>
+<tr id="D1R" class="MoveableRow"><td><input type="checkbox" class="checkbox1" id="chk1"/></td><td><input style="width:100%" type="text" class="name-input" name="authors[]" value= "Watson, John" readonly=true required></td><td><input style="width:100%" type="email" class="validate_req" name="author_emails[]" value= "pcchairdemo@gmail.com" id="0" onkeyup="validateEmail(this)" onblur="validateEmail(this)" readonly=true required></td><td><input style="width:100%" type="text" name="author_affiliations[]" value= "University of Warwick" readonly=true required></td><td><input type="button" id="U1" value=&#x25B2; class="move_up" style="background-color:#CDDC39; color:#814227; border:none;"/>&nbsp;<input type="button" id="D1" value=&#x25BC; class="move_down" style="background-color:#CDDC39; color:#814227; border:none;"/></td></tr>
+</tbody>
+</table>
+
+</td></tr>
+
+<tr><td>
+<label><strong>Presenting author: </strong></label>
+</td><td>
+<input style="width:100%" type="text" name="presenting_author" value= "Watson, John" readonly="readonly">
+</td></tr>
+<tr><td>
+<label><strong>Presentation preference: </strong></label>
+</td><td>
+<select name="presentation_pref" id="prefbox">
+<option>Oral</option>
+<option>Poster</option>
+</select>
+</td></tr>
+</table>
+</div>
+<div class="center">
+<button type="submit" name="btn-add" formnovalidate><strong>SUBMIT ABSTRACT</strong></button>
+<!--button class="w3-btn w3-lime" type="submit" name="btn-cancel" formnovalidate><strong>Cancel</strong></button-->
+    <button type="submit" name="btn-cancel" formnovalidate><strong>CANCEL</strong></button>
+</div>
+    </form>
+    </div>
+</div>
+
+
+
+
+				
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+</div><!-- .inner-wrapper --></div><!-- .container --></div><!-- #content -->
+	<footer id="colophon" class="site-footer" role="contentinfo"><div class="container">    
+	    	    <div style="align:right">
+		    	<font style="color:orange"><a href="https://ivyleaguesystems.com/terms-and-conditions" target="_blank"><font style="color:orange">Terms and conditions</font></a>&emsp;|&emsp;<a href="http://ivyleaguesystems.com/cancellation-and-refund-policy" target="_blank"><font style="color:orange">Cancellation and refund policy</font></a>&emsp;|&emsp;<a href="https://ivyleaguesystems.com/contact-us" target="_blank"><font style="color:orange">Contact Us</font></a></font>&emsp;
+		    </div>
+	    	      <div class="copyright">
+	        Copyright 2018 Ivy League Conference Management. All rights reserved.	      </div><!-- .copyright -->
+	    	    <div class="site-info">
+	      <a href="https://ivyleaguesystems.com/">A brand of Sabre Management Solutions Pvt. Ltd.</a>
+	</div><!-- .site-info -->
+	    	</div><!-- .container --></footer><!-- #colophon -->
+</div><!-- #page --><a href="#page" class="scrollup" id="btn-scrollup"><i class="fa fa-chevron-up"></i></a>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"https:\/\/demo.ivyleaguesystems.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/sabre-test-theme/js/sabre_custom_scripts.js?ver=1.1'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/education-hub/js/skip-link-focus-fix.min.js?ver=20130115'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/education-hub/third-party/cycle2/js/jquery.cycle2.min.js?ver=2.1.6'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/education-hub/js/custom.min.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EducationHubScreenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/themes/education-hub/js/navigation.min.js?ver=20120206'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/plugins/bookingcom-official-searchbox/js/bos_main.js?ver=1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var objectL10n = {"destinationErrorMsg":"Sorry, we need at least part of the name to start searching.","tooManyDays":"Your check-out date is more than 30 nights after your check-in date. Bookings can only be made for a maximum period of 30 nights. Please enter alternative dates and try again.","dateInThePast":"Your check-in date is in the past. Please check your dates and try again.","cObeforeCI":"Please check your dates, the check-out date appears to be earlier than the check-in date.","calendar_nextMonth":"Next month","calendar_prevMonth":"Prev month","calendar_closeCalendar":"Close calendar","january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December","mo":"Mo","tu":"Tu","we":"We","th":"Th","fr":"Fr","sa":"Sa","su":"Su","updating":"Updating...","close":"Close","placeholder":"e.g. city, region, district or specific hotel","aid":"382821","dest_type":"select","calendar":"0","month_format":"short","flexible_dates":"0","logodim":"blue_150x25","logopos":"left","buttonpos":"right","bgcolor":"#FEBA02","textcolor":"#003580","submit_bgcolor":"#0896FF","submit_bordercolor":"#0896FF","submit_textcolor":"#FFFFFF","aid_starts_with_four":"affiliate ID is different from partner ID: should start with a 1, 3, 8 or 9. Please change it.","images_js_path":"https:\/\/demo.ivyleaguesystems.com\/wp-content\/plugins\/bookingcom-official-searchbox\/images"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-content/plugins/bookingcom-official-searchbox/js/bos_date.js?ver=1.0'></script>
+<script type='text/javascript' src='https://demo.ivyleaguesystems.com/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+</body>
+</html>
